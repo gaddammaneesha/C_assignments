@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate_right", "Assignment1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "armstrong", "armstrong\armstrong.vcxproj", "{8C369C62-DC43-47A8-A344-DD47409F6A33}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyramid", "pyramid\pyramid.vcxproj", "{C2CA9668-F273-45AD-9441-3BA765EC6F6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{8C369C62-DC43-47A8-A344-DD47409F6A33}.Release|x64.Build.0 = Release|x64
 		{8C369C62-DC43-47A8-A344-DD47409F6A33}.Release|x86.ActiveCfg = Release|Win32
 		{8C369C62-DC43-47A8-A344-DD47409F6A33}.Release|x86.Build.0 = Release|Win32
+		{C2CA9668-F273-45AD-9441-3BA765EC6F6D}.Debug|x64.ActiveCfg = Debug|x64
+		{C2CA9668-F273-45AD-9441-3BA765EC6F6D}.Debug|x64.Build.0 = Debug|x64
+		{C2CA9668-F273-45AD-9441-3BA765EC6F6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C2CA9668-F273-45AD-9441-3BA765EC6F6D}.Debug|x86.Build.0 = Debug|Win32
+		{C2CA9668-F273-45AD-9441-3BA765EC6F6D}.Release|x64.ActiveCfg = Release|x64
+		{C2CA9668-F273-45AD-9441-3BA765EC6F6D}.Release|x64.Build.0 = Release|x64
+		{C2CA9668-F273-45AD-9441-3BA765EC6F6D}.Release|x86.ActiveCfg = Release|Win32
+		{C2CA9668-F273-45AD-9441-3BA765EC6F6D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
