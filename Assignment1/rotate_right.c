@@ -8,7 +8,7 @@ int main()
 	printf("Enter no.of positions to rotate:");
 	scanf_s("%d", &d);
 	printf("%d\n", rotate_right(n, d));
-	scanf_s("%d", &n);
+	scanf_s("%d", &d);
 	return 0;
 }
 int rotate_right(int n, int d)
