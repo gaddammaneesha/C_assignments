@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{58DFF789-7BCD-474E-ADD0-08B95C007267}</ProjectGuid>
+    <ProjectGuid>{80D865C5-9BF0-4D80-985A-695DD32D292D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>armstrong</RootNamespace>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>armstrong</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
