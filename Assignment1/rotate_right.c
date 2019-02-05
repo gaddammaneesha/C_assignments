@@ -11,7 +11,7 @@ int main()
 	scanf_s("%d", &d);
 	return 0;
 }
-int rotate_right(int n, int d)
+int rotate_right(int n, int p)
 {
-	return n >> d | n << (bits - d);
+	return n >> p| n << (bits - p);
 }
