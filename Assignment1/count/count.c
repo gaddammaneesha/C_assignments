@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<ctype.h>
+//counting 
 int main()
 {
 	char text[81];
