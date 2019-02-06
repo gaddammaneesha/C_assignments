@@ -11,7 +11,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyramid", "pyramid\pyramid.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "palindrome", "palindrome\palindrome.vcxproj", "{D02D3E6C-A572-4E70-9339-0D6CB4F26BA7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculator", "..\calculator\calculator.vcxproj", "{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculator program", "..\calculator\calculator.vcxproj", "{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "count", "count\count.vcxproj", "{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Release|x64.Build.0 = Release|x64
 		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Release|x86.ActiveCfg = Release|Win32
 		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Release|x86.Build.0 = Release|Win32
+		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Debug|x64.ActiveCfg = Debug|x64
+		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Debug|x64.Build.0 = Debug|x64
+		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Debug|x86.Build.0 = Debug|Win32
+		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Release|x64.ActiveCfg = Release|x64
+		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Release|x64.Build.0 = Release|x64
+		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Release|x86.ActiveCfg = Release|Win32
+		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
