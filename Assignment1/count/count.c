@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<ctype.h>
-//counting 
+//counting alphabets
 int main()
 {
 	char text[81];
