@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DECIMAL TO BINARY(0-32)", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grosssalary", "grosssalary\grosssalary.vcxproj", "{8E5009B2-36F9-4F89-8BA1-D85A319B8BAC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interest", "interest\interest.vcxproj", "{FE277841-215D-4942-A1C8-0AE0EE76ADDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{8E5009B2-36F9-4F89-8BA1-D85A319B8BAC}.Release|x64.Build.0 = Release|x64
 		{8E5009B2-36F9-4F89-8BA1-D85A319B8BAC}.Release|x86.ActiveCfg = Release|Win32
 		{8E5009B2-36F9-4F89-8BA1-D85A319B8BAC}.Release|x86.Build.0 = Release|Win32
+		{FE277841-215D-4942-A1C8-0AE0EE76ADDC}.Debug|x64.ActiveCfg = Debug|x64
+		{FE277841-215D-4942-A1C8-0AE0EE76ADDC}.Debug|x64.Build.0 = Debug|x64
+		{FE277841-215D-4942-A1C8-0AE0EE76ADDC}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE277841-215D-4942-A1C8-0AE0EE76ADDC}.Debug|x86.Build.0 = Debug|Win32
+		{FE277841-215D-4942-A1C8-0AE0EE76ADDC}.Release|x64.ActiveCfg = Release|x64
+		{FE277841-215D-4942-A1C8-0AE0EE76ADDC}.Release|x64.Build.0 = Release|x64
+		{FE277841-215D-4942-A1C8-0AE0EE76ADDC}.Release|x86.ActiveCfg = Release|Win32
+		{FE277841-215D-4942-A1C8-0AE0EE76ADDC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
