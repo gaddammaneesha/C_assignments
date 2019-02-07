@@ -1,4 +1,5 @@
 #include <stdio.h>
+//prime
 int main()
 {
 	int low, high, i, j, count = 0;
