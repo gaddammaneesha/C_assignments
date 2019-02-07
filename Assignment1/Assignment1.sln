@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate_right", "Assignment1.vcxproj", "{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "armstrong", "armstrong\armstrong.vcxproj", "{8C369C62-DC43-47A8-A344-DD47409F6A33}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyramid", "pyramid\pyramid.vcxproj", "{C2CA9668-F273-45AD-9441-3BA765EC6F6D}"
@@ -25,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interest", "interest\intere
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sumofdigits", "sumofdigits\sumofdigits.vcxproj", "{D23289B2-508D-4EF0-BCF9-D5C2A6A39F14}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate right of number", "rotate right of number\rotate right of number.vcxproj", "{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,14 +33,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}.Debug|x64.ActiveCfg = Debug|x64
-		{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}.Debug|x64.Build.0 = Debug|x64
-		{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}.Debug|x86.ActiveCfg = Debug|Win32
-		{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}.Debug|x86.Build.0 = Debug|Win32
-		{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}.Release|x64.ActiveCfg = Release|x64
-		{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}.Release|x64.Build.0 = Release|x64
-		{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}.Release|x86.ActiveCfg = Release|Win32
-		{B3E33BCE-BB28-4BEF-843F-2883482CC1CC}.Release|x86.Build.0 = Release|Win32
 		{8C369C62-DC43-47A8-A344-DD47409F6A33}.Debug|x64.ActiveCfg = Debug|x64
 		{8C369C62-DC43-47A8-A344-DD47409F6A33}.Debug|x64.Build.0 = Debug|x64
 		{8C369C62-DC43-47A8-A344-DD47409F6A33}.Debug|x86.ActiveCfg = Debug|Win32
@@ -121,6 +113,14 @@ Global
 		{D23289B2-508D-4EF0-BCF9-D5C2A6A39F14}.Release|x64.Build.0 = Release|x64
 		{D23289B2-508D-4EF0-BCF9-D5C2A6A39F14}.Release|x86.ActiveCfg = Release|Win32
 		{D23289B2-508D-4EF0-BCF9-D5C2A6A39F14}.Release|x86.Build.0 = Release|Win32
+		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Debug|x64.ActiveCfg = Debug|x64
+		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Debug|x64.Build.0 = Debug|x64
+		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Debug|x86.Build.0 = Debug|Win32
+		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Release|x64.ActiveCfg = Release|x64
+		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Release|x64.Build.0 = Release|x64
+		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Release|x86.ActiveCfg = Release|Win32
+		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
