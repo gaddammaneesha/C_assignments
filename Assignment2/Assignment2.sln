@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bintodec and dectobin", "bi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bintohex and hextobin", "bintohex and hextobin\bintohex and hextobin.vcxproj", "{7D4D23E9-722D-426D-95BD-124F82D4D68E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prime between limits", "prime between limits\prime between limits.vcxproj", "{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{7D4D23E9-722D-426D-95BD-124F82D4D68E}.Release|x64.Build.0 = Release|x64
 		{7D4D23E9-722D-426D-95BD-124F82D4D68E}.Release|x86.ActiveCfg = Release|Win32
 		{7D4D23E9-722D-426D-95BD-124F82D4D68E}.Release|x86.Build.0 = Release|Win32
+		{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}.Debug|x64.ActiveCfg = Debug|x64
+		{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}.Debug|x64.Build.0 = Debug|x64
+		{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}.Debug|x86.Build.0 = Debug|Win32
+		{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}.Release|x64.ActiveCfg = Release|x64
+		{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}.Release|x64.Build.0 = Release|x64
+		{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}.Release|x86.ActiveCfg = Release|Win32
+		{2F23AD1A-6BF0-4883-8B06-25B445C0BE0A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
