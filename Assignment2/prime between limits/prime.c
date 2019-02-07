@@ -1,5 +1,5 @@
 #include <stdio.h>
-//prime
+//prime numbers
 int main()
 {
 	int low, high, i, j, count = 0;
