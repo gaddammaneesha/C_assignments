@@ -1,5 +1,5 @@
 #include <stdio.h>
-//prime numbers between limits
+//prime numbers between limits low and high
 int main()
 {
 	int low, high, i, j, count = 0;
