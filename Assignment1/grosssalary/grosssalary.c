@@ -1,4 +1,5 @@
 #include<stdio.h>
+//gross salary
 void gross_salary(int sal, int hrd, int da)
 {
 	int gs = sal + hrd + da;
