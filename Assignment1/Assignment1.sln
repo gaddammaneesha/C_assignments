@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sumofdigits", "sumofdigits\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate right of number", "rotate right of number\rotate right of number.vcxproj", "{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inverting bits", "inverting bits\inverting bits.vcxproj", "{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Release|x64.Build.0 = Release|x64
 		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Release|x86.ActiveCfg = Release|Win32
 		{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}.Release|x86.Build.0 = Release|Win32
+		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Debug|x64.ActiveCfg = Debug|x64
+		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Debug|x64.Build.0 = Debug|x64
+		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Debug|x86.Build.0 = Debug|Win32
+		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x64.ActiveCfg = Release|x64
+		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x64.Build.0 = Release|x64
+		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x86.ActiveCfg = Release|Win32
+		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

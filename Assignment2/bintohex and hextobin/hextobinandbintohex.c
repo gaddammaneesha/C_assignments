@@ -1,7 +1,7 @@
 #include <stdio.h>
 void hextobin(int a)
 {
-	int r, sum = 0, base = 1;
+	int r, sum = 0, base = 1, t = a;
 	while (a>0)
 	{
 		r = a % 2;
@@ -9,7 +9,12 @@ void hextobin(int a)
 		a = a / 2;
 		base = base * 10;
 	}
-	printf("%d", sum);
+	if (t >= 0 && t <= 3)
+		printf("00%d", sum);
+	else if (t >= 4 && t <= 7)
+		printf("0%d", sum);
+	else
+		printf("%d", sum);
 	
 }
 void bintohex(int num)
