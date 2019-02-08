@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "replace space by minus", "r
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lower to upper and upper to lower", "lower to upper\lower to upper.vcxproj", "{2C3877FC-9321-4F12-976E-CFC31F4895AF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse a string using recursion", "reverse a string using recursion\reverse a string using recursion.vcxproj", "{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{2C3877FC-9321-4F12-976E-CFC31F4895AF}.Release|x64.Build.0 = Release|x64
 		{2C3877FC-9321-4F12-976E-CFC31F4895AF}.Release|x86.ActiveCfg = Release|Win32
 		{2C3877FC-9321-4F12-976E-CFC31F4895AF}.Release|x86.Build.0 = Release|Win32
+		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Debug|x64.ActiveCfg = Debug|x64
+		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Debug|x64.Build.0 = Debug|x64
+		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Debug|x86.ActiveCfg = Debug|Win32
+		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Debug|x86.Build.0 = Debug|Win32
+		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Release|x64.ActiveCfg = Release|x64
+		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Release|x64.Build.0 = Release|x64
+		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Release|x86.ActiveCfg = Release|Win32
+		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
