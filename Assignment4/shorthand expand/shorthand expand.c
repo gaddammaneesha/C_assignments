@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<ctype.h>
+//expand
 void expand(char *p, char *q)
 {
 	int i = 0, j = 0, k, l;
