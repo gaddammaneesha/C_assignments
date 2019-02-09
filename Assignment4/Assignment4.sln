@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "comparing 2 strings and del
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shorthand expand", "shorthand expand\shorthand expand.vcxproj", "{59F7D887-8ED5-4BDA-89B2-C364D24C8D4A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotatestring", "rotatestring\rotatestring.vcxproj", "{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{59F7D887-8ED5-4BDA-89B2-C364D24C8D4A}.Release|x64.Build.0 = Release|x64
 		{59F7D887-8ED5-4BDA-89B2-C364D24C8D4A}.Release|x86.ActiveCfg = Release|Win32
 		{59F7D887-8ED5-4BDA-89B2-C364D24C8D4A}.Release|x86.Build.0 = Release|Win32
+		{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}.Debug|x64.ActiveCfg = Debug|x64
+		{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}.Debug|x64.Build.0 = Debug|x64
+		{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}.Debug|x86.ActiveCfg = Debug|Win32
+		{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}.Debug|x86.Build.0 = Debug|Win32
+		{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}.Release|x64.ActiveCfg = Release|x64
+		{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}.Release|x64.Build.0 = Release|x64
+		{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}.Release|x86.ActiveCfg = Release|Win32
+		{B3D7EC0A-3239-4EF0-AC34-32A60A97F370}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
