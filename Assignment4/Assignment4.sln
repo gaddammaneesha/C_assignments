@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "returning index of matched 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deleteing a given matched character", "deleteing a given matched character\deleteing a given matched character.vcxproj", "{5BE6ADD5-E70C-4BEA-9285-163664FCB135}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "comparing 2 strings and delete matched character", "comparing 2 strings and delete matched character\comparing 2 strings and delete matched character.vcxproj", "{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Release|x64.Build.0 = Release|x64
 		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Release|x86.ActiveCfg = Release|Win32
 		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Release|x86.Build.0 = Release|Win32
+		{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}.Debug|x64.ActiveCfg = Debug|x64
+		{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}.Debug|x64.Build.0 = Debug|x64
+		{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}.Debug|x86.Build.0 = Debug|Win32
+		{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}.Release|x64.ActiveCfg = Release|x64
+		{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}.Release|x64.Build.0 = Release|x64
+		{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}.Release|x86.ActiveCfg = Release|Win32
+		{3A2BD7BF-4095-4373-9BAF-6EC8764E1BC4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
