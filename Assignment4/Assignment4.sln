@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lower to upper and upper to
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse a string using recursion", "reverse a string using recursion\reverse a string using recursion.vcxproj", "{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sorting strings using 2D array", "sorting strings using 2D array\sorting strings using 2D array.vcxproj", "{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Release|x64.Build.0 = Release|x64
 		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Release|x86.ActiveCfg = Release|Win32
 		{85360B5E-0D05-4CDF-AB0F-83BA5C21B308}.Release|x86.Build.0 = Release|Win32
+		{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}.Debug|x64.ActiveCfg = Debug|x64
+		{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}.Debug|x64.Build.0 = Debug|x64
+		{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}.Debug|x86.Build.0 = Debug|Win32
+		{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}.Release|x64.ActiveCfg = Release|x64
+		{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}.Release|x64.Build.0 = Release|x64
+		{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}.Release|x86.ActiveCfg = Release|Win32
+		{F2E9E60A-C19A-4A32-A5B1-53F6D4456D81}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
