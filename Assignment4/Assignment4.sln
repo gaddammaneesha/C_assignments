@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sorting strings using point
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "returning index of matched character", "returning index of matched character\returning index of matched character.vcxproj", "{A66E7AD7-EFC5-4947-967E-FCE4E67ABE2D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deleteing a given matched character", "deleteing a given matched character\deleteing a given matched character.vcxproj", "{5BE6ADD5-E70C-4BEA-9285-163664FCB135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{A66E7AD7-EFC5-4947-967E-FCE4E67ABE2D}.Release|x64.Build.0 = Release|x64
 		{A66E7AD7-EFC5-4947-967E-FCE4E67ABE2D}.Release|x86.ActiveCfg = Release|Win32
 		{A66E7AD7-EFC5-4947-967E-FCE4E67ABE2D}.Release|x86.Build.0 = Release|Win32
+		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Debug|x64.ActiveCfg = Debug|x64
+		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Debug|x64.Build.0 = Debug|x64
+		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Debug|x86.Build.0 = Debug|Win32
+		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Release|x64.ActiveCfg = Release|x64
+		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Release|x64.Build.0 = Release|x64
+		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Release|x86.ActiveCfg = Release|Win32
+		{5BE6ADD5-E70C-4BEA-9285-163664FCB135}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
