@@ -32,6 +32,7 @@ void expand(char *p)
 		}
 		i++;
 	}
+	free(p);			//deallocating memory
 	getchar();
 }
 int main()
