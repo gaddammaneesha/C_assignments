@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}</ProjectGuid>
+    <ProjectGuid>{ABB6F6C7-FE04-496D-A062-0E0B45736014}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>calculator</RootNamespace>
+    <RootNamespace>calculator_program</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,11 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="add.c" />
-    <ClCompile Include="div.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="mul.c" />
-    <ClCompile Include="Sub.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

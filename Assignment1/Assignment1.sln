@@ -9,8 +9,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyramid", "pyramid\pyramid.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "palindrome", "palindrome\palindrome.vcxproj", "{D02D3E6C-A572-4E70-9339-0D6CB4F26BA7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculator program", "..\calculator\calculator.vcxproj", "{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "count", "count\count.vcxproj", "{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "accepting positive", "..\accepting positive\accepting positive.vcxproj", "{2DFCCDAA-1D52-4005-BF47-E00BD21E67FF}"
@@ -26,6 +24,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate right of number", "rotate right of number\rotate right of number.vcxproj", "{1CA5C51D-B3D7-49FD-B643-04E32284CD8E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inverting bits", "inverting bits\inverting bits.vcxproj", "{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculator_program", "calculator_program\calculator_program.vcxproj", "{ABB6F6C7-FE04-496D-A062-0E0B45736014}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,14 +59,6 @@ Global
 		{D02D3E6C-A572-4E70-9339-0D6CB4F26BA7}.Release|x64.Build.0 = Release|x64
 		{D02D3E6C-A572-4E70-9339-0D6CB4F26BA7}.Release|x86.ActiveCfg = Release|Win32
 		{D02D3E6C-A572-4E70-9339-0D6CB4F26BA7}.Release|x86.Build.0 = Release|Win32
-		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Debug|x64.ActiveCfg = Debug|x64
-		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Debug|x64.Build.0 = Debug|x64
-		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Debug|x86.ActiveCfg = Debug|Win32
-		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Debug|x86.Build.0 = Debug|Win32
-		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Release|x64.ActiveCfg = Release|x64
-		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Release|x64.Build.0 = Release|x64
-		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Release|x86.ActiveCfg = Release|Win32
-		{D9073065-A2C6-4FA3-9449-32D1F2C3FBB0}.Release|x86.Build.0 = Release|Win32
 		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Debug|x64.ActiveCfg = Debug|x64
 		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Debug|x64.Build.0 = Debug|x64
 		{ED097A85-3B8E-4659-BEF2-E1D960AE5B10}.Debug|x86.ActiveCfg = Debug|Win32
@@ -131,6 +123,14 @@ Global
 		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x64.Build.0 = Release|x64
 		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x86.ActiveCfg = Release|Win32
 		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x86.Build.0 = Release|Win32
+		{ABB6F6C7-FE04-496D-A062-0E0B45736014}.Debug|x64.ActiveCfg = Debug|x64
+		{ABB6F6C7-FE04-496D-A062-0E0B45736014}.Debug|x64.Build.0 = Debug|x64
+		{ABB6F6C7-FE04-496D-A062-0E0B45736014}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABB6F6C7-FE04-496D-A062-0E0B45736014}.Debug|x86.Build.0 = Debug|Win32
+		{ABB6F6C7-FE04-496D-A062-0E0B45736014}.Release|x64.ActiveCfg = Release|x64
+		{ABB6F6C7-FE04-496D-A062-0E0B45736014}.Release|x64.Build.0 = Release|x64
+		{ABB6F6C7-FE04-496D-A062-0E0B45736014}.Release|x86.ActiveCfg = Release|Win32
+		{ABB6F6C7-FE04-496D-A062-0E0B45736014}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
