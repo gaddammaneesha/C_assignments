@@ -4,7 +4,8 @@ int result = 0;
 int add(int a, int b);
 int mul(int a, int b);
 int sub(int a, int b);
-float divide(int a, int b);
+float divx(int a, int b);
+//calc program
 struct sta
 {
 	int top;
@@ -186,7 +187,7 @@ int main()
 						break;
 					case '*': s1.Push(mul(b, a) + '0');
 						break;
-					case '/': s1.Push(divide(b, a) + '0');
+					case '/': s1.Push(divx(b, a) + '0');
 						break;
 					}//end of switch
 				}//end of else
