@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<string.h>
-//shorthand expand
+//shorthand expand program
 void expand(char *p)
 {
 	printf("string after expanding shorthand notation is\n");
