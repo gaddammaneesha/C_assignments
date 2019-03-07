@@ -89,7 +89,7 @@ int main()
 					flag = 1;
 					printf("invalid input....please enter the string properly\n");
 				}
-				if ((int)(isdigit(s1[i - 1])) > (int)(isdigit(s1[i + 1])))
+				if ((int)(isdigit(s1[i - 1])) >= (int)(isdigit(s1[i + 1])))
 				{
 					flag = 1;
 					printf("invalid input ...please enter the string properly\n");
