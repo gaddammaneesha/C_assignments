@@ -1,9 +1,14 @@
 #include <stdio.h>
+#include<stdlib.h>
 #include<string.h>
 void implementstrrev(char *s)
 {
 	char *p1, *p2, temp;
+<<<<<<< HEAD
 	for (p1 = s, p2 =s + strlen(s) - 1; p1<p2; p1++, p2--)			//p1 pointing to beginning of string 
+=======
+	for (p1 = s, p2 = s + strlen(s) - 1; p1<p2; p1++, p2--)			//p1 pointing to beginning of string 
+>>>>>>> ef1666d30c48f9093812d71264999fe07b5714e6
 																	//p2 pointitng to end of string
 	{
 		temp = *p1;
@@ -28,7 +33,11 @@ void implementstrcat(char *p, char *q)
 		j++;
 	}
 	*(p + i) = '\0';
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> ef1666d30c48f9093812d71264999fe07b5714e6
 }
 void implementstrcpy(char *a, char *b)
 {
@@ -75,7 +84,11 @@ int main()
 		else
 		{
 			printf("enter string\n");
+<<<<<<< HEAD
 			scanf(" %[^\n]s", s);
+=======
+			scanf(" %[^\n]s",s);
+>>>>>>> ef1666d30c48f9093812d71264999fe07b5714e6
 			implementstrrev(s);					//reversing the string 
 		}
 		printf("string after reversing is %s\n", s);
@@ -90,12 +103,32 @@ int main()
 		else
 		{
 			printf("enter the string to be concatenated\n");
+<<<<<<< HEAD
 			scanf("%[^\n]s", s1);
 			implementstrcat(s, s1);						//concatenating the string
 		}			
 		printf("string after concatenation is %s\n", s);
 		implementstrcpy(s, s2);						//copying the string
 		printf("string after copying into another character array is %s\n", s2);
+=======
+			scanf(" %[^\n]s", s1);
+			int size_realloc = sizeof(s) + sizeof(s1) + 1;
+			s = (char *)realloc(s, size_realloc);
+			implementstrcat(s, s1);						//concatenating the string
+		}
+		printf("string after concatenation is %s\n", s);
+		s2 = (char *)malloc(sizeof(char)*(l + 1));
+		if (s2 == NULL)
+		{
+			printf("memory allocation failed\n");
+			getchar();
+		}
+		else
+		{
+			implementstrcpy(s, s2);						//copying the string
+			printf("string after copying into another character array is %s\n", s2);
+		}
+>>>>>>> ef1666d30c48f9093812d71264999fe07b5714e6
 		printf("enter size of string\n");
 		scanf("%d", &l);
 		s3 = (char *)malloc(sizeof(char)*(l + 1));
@@ -108,10 +141,20 @@ int main()
 		{
 			printf("enter the string to be compared\n");
 
+<<<<<<< HEAD
 			scanf("%[^\n]s", s3);
 			implementstrcmp(s, s3);			//comparing the string
 		}
 	}
+=======
+			scanf(" %[^\n]s", s3);
+			implementstrcmp(s, s3);			//comparing the string
+		}
+	}
+	free(s);
+	free(s1);
+	free(s2);
+	free(s3);
+>>>>>>> ef1666d30c48f9093812d71264999fe07b5714e6
 	return 0;
 }
-

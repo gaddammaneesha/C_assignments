@@ -25,7 +25,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate right of number", "r
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inverting bits", "inverting bits\inverting bits.vcxproj", "{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}"
 EndProject
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "program_calc", "program_calc\program_calc.vcxproj", "{8B9CC897-579A-4792-8A87-17AB21913F8A}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculator_program", "calculator_program\calculator_program.vcxproj", "{E636A062-FA7B-443D-81B7-DD8277AD8F20}"
+>>>>>>> ef1666d30c48f9093812d71264999fe07b5714e6
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,7 @@ Global
 		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x64.Build.0 = Release|x64
 		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x86.ActiveCfg = Release|Win32
 		{F9D41E5E-4A0B-4F0F-941B-8C322620CC3C}.Release|x86.Build.0 = Release|Win32
+<<<<<<< HEAD
 		{8B9CC897-579A-4792-8A87-17AB21913F8A}.Debug|x64.ActiveCfg = Debug|x64
 		{8B9CC897-579A-4792-8A87-17AB21913F8A}.Debug|x64.Build.0 = Debug|x64
 		{8B9CC897-579A-4792-8A87-17AB21913F8A}.Debug|x86.ActiveCfg = Debug|Win32
@@ -131,6 +136,16 @@ Global
 		{8B9CC897-579A-4792-8A87-17AB21913F8A}.Release|x64.Build.0 = Release|x64
 		{8B9CC897-579A-4792-8A87-17AB21913F8A}.Release|x86.ActiveCfg = Release|Win32
 		{8B9CC897-579A-4792-8A87-17AB21913F8A}.Release|x86.Build.0 = Release|Win32
+=======
+		{E636A062-FA7B-443D-81B7-DD8277AD8F20}.Debug|x64.ActiveCfg = Debug|x64
+		{E636A062-FA7B-443D-81B7-DD8277AD8F20}.Debug|x64.Build.0 = Debug|x64
+		{E636A062-FA7B-443D-81B7-DD8277AD8F20}.Debug|x86.ActiveCfg = Debug|Win32
+		{E636A062-FA7B-443D-81B7-DD8277AD8F20}.Debug|x86.Build.0 = Debug|Win32
+		{E636A062-FA7B-443D-81B7-DD8277AD8F20}.Release|x64.ActiveCfg = Release|x64
+		{E636A062-FA7B-443D-81B7-DD8277AD8F20}.Release|x64.Build.0 = Release|x64
+		{E636A062-FA7B-443D-81B7-DD8277AD8F20}.Release|x86.ActiveCfg = Release|Win32
+		{E636A062-FA7B-443D-81B7-DD8277AD8F20}.Release|x86.Build.0 = Release|Win32
+>>>>>>> ef1666d30c48f9093812d71264999fe07b5714e6
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
