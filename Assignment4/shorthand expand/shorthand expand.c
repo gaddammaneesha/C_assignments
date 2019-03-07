@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<string.h>
-//shorthand expand
+//shorthand expand program
 void expand(char *p)
 {
 	printf("string after expanding shorthand notation is\n");
@@ -34,6 +34,7 @@ void expand(char *p)
 	}
 	free(p);			//deallocating memory
 	getchar();
+
 }
 int main()
 {
@@ -54,12 +55,12 @@ int main()
 		printf("enter string of mentioned size %d\n",len);
 		scanf("%s",s1);
 		//input validation
-		if (!isalpha(s1[0])||!isdigit(s1[0]))		//if 1st character is invalid 
+		if (!isalpha(s1[0])&&!isdigit(s1[0]))		//if 1st character is invalid 
 		{
 			printf("invalid input....please enter the string properly \n");
 			getchar();
 		}
-		if (!isalpha(s1[len-1]) || !isdigit(s1[len-1]))
+		if (!isalpha(s1[len-1]) && !isdigit(s1[len-1]))
 		{
 			printf("invalid input....please enter the string properly\n");
 			getchar();
@@ -96,13 +97,18 @@ int main()
 				}
 
 			}
-			else if (!isalpha(s1[i]) || !isdigit(s1[i]))
+			else if (isalpha(s1[i]) || isdigit(s1[i]))
 			{
+				i++;
+				continue;
+			}
+			else
+			{
+
 				printf("invalid input....please enter the string properly\n");
 				break;
 			}
-			else
-				continue;
+				
 
 			if (flag == 1)
 				break;
