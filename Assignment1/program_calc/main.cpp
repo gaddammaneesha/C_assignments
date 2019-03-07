@@ -6,6 +6,8 @@ int mul(int a, int b);
 int sub(int a, int b);
 float divx(int a, int b);
 //calculator program 
+
+
 struct sta
 {
 	int top;
